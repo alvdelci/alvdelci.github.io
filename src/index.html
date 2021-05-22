@@ -20,7 +20,7 @@
 <body>
 
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg">
         <div class="container-fluid">
             <a href="#"><img id="logo-navbar" src="../img/tag_icon.png" alt="Ícone de uma tag vazia"></a>
 
@@ -50,16 +50,51 @@
                         <a class="nav-link" href="https://www.linkedin.com/in/alvdelci/" target="_blank">LinkedIn <img
                                 src="../img/social_networks_icons/linkedin.png" alt="Ícone com link para linkedin"></a>
                     </li>
+                    <li class="nav-item item-button-mail">
+                        <div class="dropstart">
+                            <button type="button" class="btn btn-outline-success" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Send Mail
+                            </button>
+                            <ul class="dropdown-menu" id="ul-dropdown">
+                                <li class="nav-item">
+                                    <form action="mailto:delcimariosantos@gmail.com" method="POST"
+                                        enctype="multipart/form-data">
+                                        <label for="name">Name</label>
+                                        <input class="input-form" type="text" name="name" id="name">
+                                        <label for="email">Email</label>
+                                        <input class="input-form" type="email" name="email" id="email">
+                                        <textarea class="form-control" id="textAreaExample1" rows="3"></textarea>
+                                        <label class="form-label" for="textAreaExample"></label>
+                                        <input class="btn btn-success" type="submit" value="Send">
+                                    </form>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
                 </ul>
-                <form class="d-flex">
-                    <button class="btn btn-outline-success" type="submit">Send Mail</button>
-                </form>
+
+
+
+                <!--  -->
             </div>
+
         </div>
     </nav>
 
     <!--Container-->
-    <div id="container" class="bg-secondary"><img src="../img/man_dev.png" alt=""></div>
+    <div class="container-fluid bg-secondary">
+        <div id="container" class="">
+            <div class="row">
+                <div class="col-3">
+                    <img src="../img/my_img.jpeg" alt="">
+                </div>
+                <div class="col-9">
+
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!--Footer-->
     <nav class="navbar navbar-dark bg-dark" id="footer">
