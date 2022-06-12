@@ -1,30 +1,51 @@
-/*Navbar*/
+body .navbar {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
 #logo-navbar {
     width: 30px;
     margin-right: 10px;
 }
 .link-to-back {
     outline: none;
-    color: gray;
     text-decoration: none;
+    font-weight: bold;
+    color: rgb(128, 128, 128);
 }
 .link-to-back:hover{
     outline: none;
     color: rgb(201, 201, 201);
 
 }
+
+.nav-item {
+    margin-left: 20px;
+}
+
 .nav-link img {
     width: 18px;
     margin-bottom: 5px;
 }
-.nav-item {
-    margin-left: 20px;
+
+.nav-link {
+    
+    font-size: 18px;
+    color: red;
 }
+
+.nav-link:hover {
+    outline: none;
+    text-decoration: none;
+    color: blue;
+}
+
 #navbarSupportedContent ul{
     width: 100%;
     justify-content: flex-end;
     margin-right: 20px;
 }
+
 #ul-dropdown {
     position: absolute;
     top: unset;
@@ -36,20 +57,4 @@
     justify-content: center;
     align-items: center;
     width: fit-content !important;
-}
-.item-button-mail {
-    margin-right: 30px;
-}
-input[type=submit] {
-    float: left;
-    margin-top: 10px;
-}
-.input-form {
-    border-radius: 5px;
-    outline: none;
-    border: 1px solid gray;
-    margin-bottom: 10px;
-}
-form label {
-    color: white;
 }

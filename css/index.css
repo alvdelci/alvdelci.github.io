@@ -1,28 +1,62 @@
-/*Container*/
-#container {
-    height: 100vh;
-    justify-content: center;
+html {
+    height: 100%;
 }
-#container img {
-    width: 200px;
-    border-radius: 100px;
 
+body {
+    background-image: url("../img/background.png"), url("../img/background.png");
+    background-size: 100vw 100vh;
+    background-repeat: repeat-y;
+
+    height: 100%;
+}
+
+#container-main {
+    height: 100vh;
+}
+
+#container-main img {
+    width: 200px;
+    
+    border-radius: 100px; 
+    padding: 3px;
     margin-top: 30px;
+
+    border: 2px solid whitesmoke;
 }
-.repo {
-    border: 1px solid white;
-    margin: 10px 20px;
-    border-radius: 5px;
+
+h3 {
+    color: white;
 }
-.repo-row {
-    display: flex;
-    justify-content: center;
+
+#bio h4 {
+    text-align: center;
+    margin-bottom: 20px;
 }
+
+#bio {
+    margin-top: 20px;
+
+    text-align: justify;
+    font-size: large;
+
+    color: white;
+}
+
 #line {
     border-bottom: 1px solid white;
     margin: 10px 0px 10px 0px;
 }
 
-h2 {
+/*Respositorios*/
+.repo {
+
+    margin: 10px 20px;
+    border: 1px solid rgb(136, 136, 136);
+    border-radius: 5px;
+
     color: white;
+}
+.repo-row {
+    display: flex;
+    justify-content: center;
 }

@@ -1,61 +1,100 @@
 <!DOCTYPE html>
 <html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="shortcut icon" href="./img/tag_icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/tag_icon.png" type="image/x-icon" />
 
     <!-- Body Styles CSS -->
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/index.css" />
     <!-- Navbar Styles CSS -->
-    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/navbar.css" />
     <!-- Footer Styles CSS -->
-    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/footer.css" />
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
 
     <title>Rafithy Dev</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg">
-        <div class="container-fluid">
-            <a href="#"><img id="logo-navbar" src="./img/tag_icon.png" alt="Ícone de uma tag vazia"></a>
-            <a href="./blog.html" class="link-to-back">Go To Blog</a>
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-lg">
+      <div class="container-fluid">
+        <a href="#"
+          ><img
+            id="logo-navbar"
+            src="./img/tag_icon.png"
+            alt="Ícone de uma tag vazia"
+        /></a>
+        <a href="./blog.html" class="link-to-back">Go To Blog</a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://discord.gg/feHNH2TTW8" target="_blank">Discord <img
-                                src="./img/social_networks_icons/discord.png"
-                                alt="Ícone com link para servidor no discord"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/alvdelci" target="_blank">GitHub <img
-                                src="./img/social_networks_icons/github.png"
-                                alt="Ícone com link para perfil no github"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.instagram.com/alv_delci/" target="_blank">Instragram <img
-                                src="./img/social_networks_icons/insta.png" alt="Ícone com link para instagran"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.linkedin.com/in/alvdelci/" target="_blank">LinkedIn <img
-                                src="./img/social_networks_icons/linkedin.png" alt="Ícone com link para linkedin"></a>
-                    </li>
-                    <!-- <li class="nav-item item-button-mail">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://discord.gg/feHNH2TTW8"
+                target="_blank"
+                >Discord
+                <img
+                  src="./img/social_networks_icons/discord.png"
+                  alt="Ícone com link para servidor no discord"
+              /></a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://github.com/alvdelci"
+                target="_blank"
+                >GitHub
+                <img
+                  src="./img/social_networks_icons/github.png"
+                  alt="Ícone com link para perfil no github"
+              /></a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://www.instagram.com/alv_delci/"
+                target="_blank"
+                >Instragram
+                <img
+                  src="./img/social_networks_icons/insta.png"
+                  alt="Ícone com link para instagran"
+              /></a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://www.linkedin.com/in/alvdelci/"
+                target="_blank"
+                >LinkedIn
+                <img
+                  src="./img/social_networks_icons/linkedin.png"
+                  alt="Ícone com link para linkedin"
+              /></a>
+            </li>
+            <!-- <li class="nav-item item-button-mail">
                         <div class="dropstart">
                             <button type="button" class="btn btn-outline-success" data-bs-toggle="dropdown"
                                 aria-expanded="false">
@@ -80,71 +119,75 @@
                             </ul>
                         </div>
                     </li> -->
-                </ul>
-                <!--  -->
-            </div>
-
+          </ul>
+          <!--  -->
         </div>
+      </div>
     </nav>
 
     <!--Container-->
-    <div class="container-fluid bg-secondary">
-        <div id="container" class="container">
+    <div class="container-fluid">
+      <div id="container-main" class="container">
+        <div class="row">
+          <div class="col-3">
             <div class="row">
-                <div class="col-3">
-                    <div class="row">
-                        <img src="./img/my_img.jpeg" alt="">
-                    </div>
-                    <div class="row">
-                        <h2>Delcimario Alves</h2>
-                    </div>
-                </div>
-                <div class="col-9">
-
-                </div>
+              <img src="./img/me.jpeg" alt="Imagem de perfil" />
             </div>
-
-            <div id="line"></div>
-
-            <div class="row repo-row">
-                <div class="repo col-sm">
-                    <label><strong>Title-repositorio-comp</strong></label><br>
-                    <span>Description</span>
-                    <div class="">
-                        <label>language</label>
-                        <label>stars</label>
-                    </div>
-                </div>
-                <div class="repo col-sm">
-                    <label><strong>Title-repositorio-comp</strong></label><br>
-                    <span>Description</span>
-                    <div class="">
-                        <label>language</label>
-                        <label>stars</label>
-                    </div>
-                </div>
-                <div class="repo col-sm">
-                    <label><strong>Title-repositorio-comp</strong></label><br>
-                    <span>Description</span>
-                    <div class="">
-                        <label>language</label>
-                        <label>stars</label>
-                    </div>
-                </div>
-                <div class="repo col-sm">
-                    <label><strong>Title-repositorio-comp</strong></label><br>
-                    <span>Description</span>
-                    <div class="">
-                        <label>language</label>
-                        <label>stars</label>
-                    </div>
-                </div>
+            <div class="row">
+              <h3>Delcimario Alves</h3>
             </div>
+          </div>
+          <div class="col-6" id="bio">
+            <h4>Apresentação</h4>
+            <span>
+              Delcimario "Rafithy" Alves é estudante de Ciências Exatas e
+              Tecnológicas e Engenharia da Computação na Universidade Federal do
+              Recôncavo da Bahia. Atualmente trabalha com desenvolvimento de
+              frontend com React JS e vem estudando a stack do Javascript
+              (Typescript, Nodejs, ReactJS, React Native) e outras tecnologias
+              para desenvolvimento web e mobile como Flutter/Dart. Tem interesse
+              em Inteligência Artificial e Computação em Nuvem.
+            </span>
+          </div>
         </div>
+
+        <div id="line"></div>
+
+        <!--Repositorios-->
+        <div class="row repo-row">
+          <div class="repo col-sm">
+            <label><strong>repos_name</strong></label
+            ><br />
+            <span>Description</span>
+            <div class="">
+              <label>language</label>
+              <label>stars</label>
+            </div>
+          </div>
+          <div class="repo col-sm">
+            <label><strong>repos_name</strong></label
+            ><br />
+            <span>Description</span>
+            <div class="">
+              <label>language</label>
+              <label>stars</label>
+            </div>
+          </div>
+          <div class="repo col-sm">
+            <label><strong>repos_name</strong></label
+            ><br />
+            <span>Description</span>
+            <div class="">
+              <label>language</label>
+              <label>stars</label>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!--Footer-->
-    <nav class="navbar navbar-dark bg-dark" id="footer">
+    <!-- <nav class="navbar navbar-dark" id="footer">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -152,13 +195,13 @@
                 <span class="" href="#">Topo</span>
             </button>
         </div>
-    </nav>
+    </nav> -->
 
     <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-        crossorigin="anonymous"></script>
-
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
