@@ -10,16 +10,13 @@ body {
     height: 100%;
 }
 
-#container-main {
-    height: 100vh;
-}
-
 #container-main img {
     width: 200px;
     
     border-radius: 100px; 
     padding: 3px;
     margin-top: 30px;
+    margin-bottom: 10px;
 
     border: 2px solid whitesmoke;
 }
@@ -37,26 +34,11 @@ h3 {
     margin-top: 20px;
 
     text-align: justify;
-    font-size: large;
+    font-size: 17px;
 
     color: white;
 }
 
-#line {
-    border-bottom: 1px solid white;
-    margin: 10px 0px 10px 0px;
-}
-
-/*Respositorios*/
-.repo {
-
-    margin: 10px 20px;
-    border: 1px solid rgb(136, 136, 136);
-    border-radius: 5px;
-
-    color: white;
-}
-.repo-row {
-    display: flex;
-    justify-content: center;
+.line {
+    border-top: 1px solid rgba(255, 255, 255, 1);
 }
