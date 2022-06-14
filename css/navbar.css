@@ -1,43 +1,28 @@
-body .navbar {
-    padding-bottom: 0;
-    padding-top: 0;
+html {
+    height: 100%;
 }
 
 #logo-navbar {
     width: 30px;
     margin-right: 10px;
 }
-.link-to-back {
-    outline: none;
-    text-decoration: none;
-    font-weight: bold;
-    color: rgb(128, 128, 128);
-}
-.link-to-back:hover{
-    outline: none;
-    color: rgb(201, 201, 201);
-
-}
 
 .nav-item {
     margin-left: 20px;
 }
 
-.nav-link img {
-    width: 18px;
+.link-network img {
+    width: 20px;
     margin-bottom: 5px;
 }
 
-.nav-link {
-    
-    font-size: 18px;
-    color: red;
+.link-network {
+    text-decoration: none;
+    color: white;
 }
 
-.nav-link:hover {
-    outline: none;
-    text-decoration: none;
-    color: blue;
+.link-network:hover {
+    color: rgb(188, 83, 236);
 }
 
 #navbarSupportedContent ul{
