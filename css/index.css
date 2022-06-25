@@ -3,42 +3,105 @@ html {
 }
 
 body {
-    background-image: url("../img/background.png"), url("../img/background.png");
-    background-size: 100vw 100vh;
-    background-repeat: repeat-y;
-
     height: 100%;
 }
 
-#container-main img {
-    width: 200px;
-    
-    border-radius: 100px; 
-    padding: 3px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-
-    border: 2px solid whitesmoke;
+.line-vertical {
+    border-left: 1px solid #fff;
 }
 
-h3 {
+.container-fluid {
+    height: 100%;
+    background-color: #010101;
     color: white;
 }
 
-#bio h4 {
+/*Avatar*/
+.avatar {
+    display: flex;
+    justify-content: center;
+
+    padding-top: 90px;
+}
+
+.image-box {
+    height: fit-content;
+    width: fit-content;
+    transform: rotate(-45deg);
+    transform-origin: center;
+
+
+    padding: 8px;
+
+    border-radius: 15%;
+
+    background-color: white;
+
+    box-shadow: -10px 10px 12px rgba(0, 0, 0, .3);
+}
+
+.image-box img {
+    height: 150px;
+    width: 150px;
+
+    border-radius: 15%;
+}
+
+/*Resume*/
+.behind-resume {
+    margin-top: -60px;
+    margin-left: -12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+    background-color: rgba(29, 152, 70, .8);
+}
+
+.resume {
     text-align: center;
-    margin-bottom: 20px;
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: -60px;
+    padding: 60px 20px 20px 20px;
+
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+    background-color: white;
+    color: black;
 }
 
-#bio {
+.resume h4 {
     margin-top: 20px;
+    margin-bottom: 15px;
 
-    text-align: justify;
-    font-size: 17px;
-
-    color: white;
+    font-style: italic;
+    color: rgba(29, 152, 70, 1);
 }
 
-.line {
-    border-top: 1px solid rgba(255, 255, 255, 1);
+.resume h5 {
+    font-weight: bold;
+}
+
+.resume span {
+    display: block;
+    max-width: 480px;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    padding: 20px;
+    text-align: justify;
+}
+
+.personal-information {
+    background-color: black;
+}
+
+.personal-item img {
+    width: 50px;
 }
