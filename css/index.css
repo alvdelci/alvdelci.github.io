@@ -177,6 +177,8 @@ body {
 .skills {
     display: flex;
     justify-content: space-between;
+
+    margin-bottom: 60px;
 }
 
 .skill-box {
@@ -187,5 +189,19 @@ body {
 
 .skill-box img {
     width: 40px;
+}
 
+.social {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-box {
+    padding: 10px;
+    border: 3px solid rgba(29, 152, 70, 1);
+    border-radius: 50%;
+}
+
+.social-box img {
+    width: 40px;
 }
