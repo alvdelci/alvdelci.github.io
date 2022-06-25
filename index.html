@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="shortcut icon" href="./img/tag_icon.png" type="image/x-icon" />
+  <link rel="shortcut icon" href="./img/tag.svg" type="image/x-icon" />
 
   <!-- Body Styles CSS -->
   <link rel="stylesheet" href="css/index.css" />
@@ -19,9 +19,9 @@
 </head>
 
 <body>
-  <!--LEFT-->
-  <div class="container-fluid d-flex">
-    <div class="col-sm">
+  <div class="container-fluid">
+    <!--LEFT-->
+    <div class="col-6">
       <!--Avatar e resumo-->
       <div class="row presentation">
         <div class="col-6">
@@ -33,54 +33,120 @@
           <div class="behind-resume">
             <div class="resume">
               <h4>Delcimario dos Santos Alves</h4>
-              <h5>FRONTEND DEVELOPER</h5>
+              <h5>DESENVOLVEDOR</h5>
               <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sagittis ultrices odio, eget euismod
-                ex
-                aliquet vel. Nullam lobortis dignissim nulla vel pellentesque. Phasellus augue est, tincidunt a
-                hendrerit
-                lacinia, sodales et ex.
+                Estudante de Bacharelado em Ciências Exatas e Tecnológicas e Engenharia da Computação, desenvolvedor e
+                apaixonado por games.
               </span>
             </div>
           </div>
         </div>
       </div>
       <!--Informações pessoais-->
-      <div class="row personal-information">
+      <div class="personal-information">
         <div class="col-12">
-          <div class="row personal-item">
-            <img src="./img/bday-cake.svg" alt="">
+          <div class="personal-item">
+            <img src="./img/bday-cake.svg" alt="ícone de bolo de aniversário">
             <div>
-              <label>Date of Birthday</label>
-              <label>Info</label>
+              <label>Date of Birthday: </label>
+              <span>20/06/2001</span>
             </div>
           </div>
-          <div class="row personal-item">
-            <img src="./img/location.svg" alt="">
+          <div class="personal-item">
+            <img src="./img/location.svg" alt="ícone de localização">
             <div>
-              <label>Address</label>
-              <label>Info</label>
+              <label>Address:</label>
+              <span>Cruz das Almas, Bahia, Brazil</span>
             </div>
           </div>
-          <div class="row personal-item">
-            <img src="./img/phone-icon.svg" alt="">
+          <div class="personal-item">
+            <img src="./img/phone-icon.svg" alt="ícone de telefone">
             <div>
-              <label>Email</label>
-              <label>Info</label>
+              <label>Phone:</label>
+              <span>(75) 9 8244-0459</span>
             </div>
           </div>
-
+          <div class="personal-item">
+            <img src="./img/mail-icon.svg" alt="ícone de email">
+            <div>
+              <label>Email:</label>
+              <span>delcimariosantos@gmail.com</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="line-vertical"></div>
-
     <!--RIGHT-->
-    <div class="col-sm">
-      <div class="row experience">Experience</div>
-      <div class="row education">Education</div>
-      <div class="row skills">Skills</div>
+    <div class="col-5 offset-1">
+      <div class="row education">
+        <h3>EDUCATION</h3>
+        <div class="horizontal-line"></div>
+        <div class="row education-item">
+          <div class="col-2">
+            <label>2019</label><br>
+            <label>Atual</label>
+          </div>
+          <div class="col-10">
+            <label>Universidade Federal do Recôncavo da Bahia</label><br>
+            <span>Bacharelado em Ciências Exatas e tecnológicas e Engenharia da Computação</span>
+          </div>
+        </div>
+      </div>
+      <div class="row experience">
+        <h3>EXPERIENCE</h3>
+        <div class="horizontal-line"></div>
+        <div class="row education-item">
+          <div class="col-2">
+            <label>2020</label><br>
+            <label>2021</label>
+          </div>
+          <div class="col-10">
+            <label>Recode Jr.</label><br>
+            <span>Desenvolvedor de Software</span>
+          </div>
+        </div>
+        <div class="row education-item">
+          <div class="col-2">
+            <label>2021</label><br>
+            <label>2022</label>
+          </div>
+          <div class="col-10">
+            <label>Recode Jr.</label><br>
+            <span>Diretor de Projetos</span>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <h3>SKILLS</h3>
+        <div class="skills">
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
+            <div class="skill-box">
+              <img src="./img/html.svg" alt="ícone da linguagem HTML5">
+            </div>
+          </a>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
+            <div class="skill-box">
+              <img src="./img/css.svg" alt="ícone da linguagem CSS3">
+            </div>
+          </a>
+          <a href="https://www.javascript.com" target="_blank">
+            <div class="skill-box">
+              <img src="./img/javascript.svg" alt="ícone da linguagem Javascript">
+            </div>
+          </a>
+          <a href="https://reactjs.org" target="_blank">
+            <div class="skill-box">
+              <img src="./img/react.svg" alt="ícone da biblioteca ReactJS">
+            </div>
+          </a>
+          <a href="https://nodejs.org/en/" target="_blank">
+            <div class="skill-box">
+              <img src="./img/node.svg" alt="ícone do NodeJS">
+            </div>
+          </a>
+        </div>
+      </div>
     </div>
   </div>
 
