@@ -1,11 +1,3 @@
-html {
-    height: 100%;
-}
-
-body {
-    height: 100%;
-}
-
 .vertical-line {
     border-left: 1px solid #fff;
 }
@@ -15,7 +7,6 @@ body {
 }
 
 .container-fluid {
-    display: flex;
     background-image: url("../img/background.jpg");
     /*background-image: url("https://cdn.pixabay.com/photo/2015/10/01/21/57/wallpaper-967836_1280.png");*/
     color: white;
@@ -205,4 +196,11 @@ body {
 
 .social-box img {
     width: 30px;
+}
+
+/*Estilização em telas mobile*/
+@media screen and (max-width: 768px) {
+    .main-row {
+        display: flex;
+    }
 }
