@@ -1,9 +1,5 @@
 html {
-    height: 100%;
-}
-
-body {
-    height: 100%;
+    width: 100%;
 }
 
 .vertical-line {
@@ -15,10 +11,13 @@ body {
 }
 
 .container-fluid {
-    display: flex;
     background-image: url("../img/background.jpg");
     /*background-image: url("https://cdn.pixabay.com/photo/2015/10/01/21/57/wallpaper-967836_1280.png");*/
     color: white;
+}
+
+.right-col {
+    margin-left: 10vw;
 }
 
 /*Avatar*/
@@ -205,4 +204,78 @@ body {
 
 .social-box img {
     width: 30px;
+}
+
+/*Estilização em telas mobile*/
+@media screen and (max-width: 768px) {
+    .main-row {
+        display: flex;
+    }
+
+    .right-col {
+        margin-left: 0;
+    }
+
+    .presentation {
+        justify-content: center;
+    }
+
+    .avatar {
+        display: flex;
+        justify-content: center;
+
+        padding-top: 40px;
+    }
+
+    .image-box {
+        height: fit-content;
+        width: fit-content;
+        transform: rotate(-45deg);
+        transform-origin: center;
+
+        padding: 8px;
+
+        border-radius: 15%;
+
+        background-color: white;
+
+        box-shadow: -10px 10px 12px rgba(0, 0, 0, .2);
+    }
+
+    .image-box img {
+        height: 120px;
+        width: 120px;
+
+        border-radius: 15%;
+    }
+
+    /*Resume*/
+    .behind-resume {
+        margin-top: -50px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+        border-radius: 15px;
+
+    }
+
+    .resume {
+        text-align: center;
+
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-right: -30px;
+        margin-left: -30px;
+        padding: 60px 10px 10px 10px;
+
+        border-radius: 15px;
+    }
+
+    .social-box img {
+        width: 25px;
+    }
+
+    .skill-box img {
+        width: 25px;
+    }
 }
