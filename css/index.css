@@ -44,8 +44,8 @@ html {
 }
 
 .image-box img {
-    height: 120px;
-    width: 120px;
+    height: 140px;
+    width: 140px;
 
     border-radius: 15%;
 }
@@ -132,9 +132,11 @@ html {
     background-color: rgba(29, 152, 70, .9);
 }
 
+
+
 .education .horizontal-line {
-    width: 80%;
-    margin-left: 12px;
+    width: 90%;
+    margin-left: 2px;
     margin-bottom: 25px;
 }
 
@@ -149,12 +151,14 @@ html {
 .education-item .col-2 {
     align-items: center;
     margin: auto;
+
 }
 
 .education-item .col-10 {
     border-left: 1px solid #fff;
     align-items: center;
     margin: auto;
+    padding-right: 10px;
 }
 
 .experience {
@@ -164,9 +168,11 @@ html {
     background-color: rgba(29, 152, 70, .9);
 }
 
+
+
 .experience .horizontal-line {
-    width: 80%;
-    margin-left: 12px;
+    width: 90%;
+    margin-left: 2px;
     margin-bottom: 25px;
 }
 
@@ -252,7 +258,7 @@ html {
 
     /*Resume*/
     .behind-resume {
-        margin-top: -50px;
+        margin-top: -30px;
         padding-top: 5px;
         padding-bottom: 5px;
 
@@ -263,11 +269,11 @@ html {
     .resume {
         text-align: center;
 
-        margin-top: 15px;
-        margin-bottom: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
         margin-right: -40px;
         margin-left: -40px;
-        padding: 40px 10px 10px 10px;
+        padding: 20px 10px 10px 10px;
 
         border-radius: 15px;
     }
@@ -292,13 +298,11 @@ html {
     .experience .horizontal-line {
         width: 98%;
         margin-left: 4px;
-        border-top: 1px solid #fff;
     }
 
     .education .horizontal-line {
         width: 98%;
         margin-left: 4px;
-        border-top: 1px solid #fff;
     }
 
     .experience {
