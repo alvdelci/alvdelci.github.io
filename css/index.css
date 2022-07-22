@@ -44,8 +44,8 @@ html {
 }
 
 .image-box img {
-    height: 120px;
-    width: 120px;
+    height: 140px;
+    width: 140px;
 
     border-radius: 15%;
 }
@@ -132,9 +132,11 @@ html {
     background-color: rgba(29, 152, 70, .9);
 }
 
+
+
 .education .horizontal-line {
-    width: 80%;
-    margin-left: 12px;
+    width: 90%;
+    margin-left: 2px;
     margin-bottom: 25px;
 }
 
@@ -149,12 +151,14 @@ html {
 .education-item .col-2 {
     align-items: center;
     margin: auto;
+
 }
 
 .education-item .col-10 {
     border-left: 1px solid #fff;
     align-items: center;
     margin: auto;
+    padding-right: 10px;
 }
 
 .experience {
@@ -164,9 +168,11 @@ html {
     background-color: rgba(29, 152, 70, .9);
 }
 
+
+
 .experience .horizontal-line {
-    width: 80%;
-    margin-left: 12px;
+    width: 90%;
+    margin-left: 2px;
     margin-bottom: 25px;
 }
 
@@ -208,6 +214,10 @@ html {
 
 /*Estilização em telas mobile*/
 @media screen and (max-width: 768px) {
+    h4 {
+        text-align: center;
+    }
+
     .main-row {
         display: flex;
     }
@@ -224,7 +234,7 @@ html {
         display: flex;
         justify-content: center;
 
-        padding-top: 40px;
+        padding-top: 30px;
     }
 
     .image-box {
@@ -233,12 +243,9 @@ html {
         transform: rotate(-45deg);
         transform-origin: center;
 
-        padding: 8px;
-
+        padding: 6px;
         border-radius: 15%;
-
         background-color: white;
-
         box-shadow: -10px 10px 12px rgba(0, 0, 0, .2);
     }
 
@@ -251,7 +258,7 @@ html {
 
     /*Resume*/
     .behind-resume {
-        margin-top: -50px;
+        margin-top: -30px;
         padding-top: 5px;
         padding-bottom: 5px;
 
@@ -262,13 +269,48 @@ html {
     .resume {
         text-align: center;
 
-        margin-top: 25px;
-        margin-bottom: 25px;
-        margin-right: -30px;
-        margin-left: -30px;
-        padding: 60px 10px 10px 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: -40px;
+        margin-left: -40px;
+        padding: 20px 10px 10px 10px;
 
         border-radius: 15px;
+    }
+
+    .resume h4 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .resume h5 {
+        font-size: 18px;
+    }
+
+    .resume span {
+
+        font-size: 14px;
+        font-weight: bold;
+
+        padding: 5px;
+    }
+
+    .experience .horizontal-line {
+        width: 98%;
+        margin-left: 4px;
+    }
+
+    .education .horizontal-line {
+        width: 98%;
+        margin-left: 4px;
+    }
+
+    .experience {
+        border-radius: 0px;
+    }
+
+    .social {
+        margin-bottom: 20px;
     }
 
     .social-box img {
