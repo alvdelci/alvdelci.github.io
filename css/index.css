@@ -4,22 +4,23 @@ html {
 
 .vertical-line {
     margin: 10px 30px 10px 30px;
-    border-left: 1px solid #c1c5c7;
+    border-left: 1px solid #879aa3;
 }
 
 .horizontal-line {
     margin: 5px 5px 0px 0px;
-    border-top: 1px solid #c1c5c7;
+    border-top: 1px solid #879aa3;
 }
 
 .container-fluid {
     color: white;
+    margin-bottom: 30px;
 }
 
 /*Cabeçalho*/
 .header {
-    background-color: #252d33;
-    color: #c1c5c7;
+    background-color: #24394C;
+    color: #9ec0d1;
     margin-bottom: 20px;
 }
 
@@ -44,7 +45,7 @@ html {
 /*Coluna da direita*/
 .right-col {
     display: flex;
-    color: #252d33;
+    color: #24394C;
 }
 
 .item-personal-information {
@@ -52,18 +53,18 @@ html {
 }
 
 .item-personal-information .key {
-    color: #757e83;
+    color: #638597;
 }
 
 .item-personal-information .value {
-    color: #252d33;
+    color: #24394C;
     font-weight: 500;
 }
 
 .item-personal-information .value a {
     outline: none;
     /* text-decoration: none; */
-    color: #252d33;
+    color: #24394C;
 }
 
 .qualities h3 {
@@ -80,7 +81,7 @@ html {
     width: 10px;
     height: 10px;
     margin: auto 10px auto 0px;
-    background-color: #252d33;
+    background-color: #24394C;
 }
 
 .interests h3 {
@@ -95,14 +96,14 @@ html {
 
 /*Coluna da Esquerda*/
 .left-col {
-    color: #252d33;
+    color: #24394C;
 }
 
 /*Educação e experiência*/
 .title {
     display: flex;
     font-weight: 500;
-    color: #252d33;
+    color: #24394C;
 }
 
 .item-education {
@@ -110,12 +111,12 @@ html {
 }
 
 .item-education label {
-    color: #757e83;
+    color: #638597;
 }
 
 .item-education span {
     font-weight: 400;
-    color: #252d33;
+    color: #24394C;
 }
 
 .item-education .col-3 {
@@ -131,12 +132,12 @@ html {
 }
 
 .item-experience label {
-    color: #757e83;
+    color: #638597;
 }
 
 .item-experience span {
     font-weight: 400;
-    color: #252d33;
+    color: #24394C;
 }
 
 .item-experience .col-3 {
@@ -147,12 +148,12 @@ html {
 .bar-percent {
     width: 100%;
     height: 10px;
-    background-color: #c1c5c7;
+    background-color: #c5d4db;
 }
 
 .inside-bar-percent {
     height: 10px;
-    background-color: #252d33;
+    background-color: #24394C;
 }
 
 .skills h3 {
