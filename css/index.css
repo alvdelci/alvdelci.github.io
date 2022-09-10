@@ -3,7 +3,7 @@ html {
 }
 
 .vertical-line {
-    margin: 10px 30px 10px 30px;
+    margin: 10px 30px 0px 30px;
     border-left: 1px solid #879aa3;
 }
 
@@ -170,4 +170,12 @@ html {
 
 .languages h3 {
     margin-top: 20px;
+}
+
+.lang h3 {
+    margin-top: 20px;
+}
+
+.item-lang label {
+    margin-bottom: 5px;
 }
