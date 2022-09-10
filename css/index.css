@@ -3,21 +3,21 @@ html {
 }
 
 .vertical-line {
-    border-left: 1px solid #fff;
+    margin: 10px 30px 10px 30px;
+    border-left: 1px solid #c1c5c7;
 }
 
 .horizontal-line {
-    border-top: 1px solid #fff;
+    margin: 5px 5px 0px 0px;
+    border-top: 1px solid #c1c5c7;
 }
 
 .container-fluid {
-
-    /*background-image: url("https://cdn.pixabay.com/photo/2015/10/01/21/57/wallpaper-967836_1280.png");*/
     color: white;
 }
 
+/*Cabeçalho*/
 .header {
-    /* background-image: url("../img/background.jpg"); */
     background-color: #252d33;
     color: #c1c5c7;
     margin-bottom: 20px;
@@ -41,12 +41,10 @@ html {
     padding: 5px 10px 5px 0px;
 }
 
-.left-col {
+/*Coluna da direita*/
+.right-col {
+    display: flex;
     color: #252d33;
-}
-
-.card {
-    border: none;
 }
 
 .item-personal-information {
@@ -59,11 +57,117 @@ html {
 
 .item-personal-information .value {
     color: #252d33;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .item-personal-information .value a {
     outline: none;
     /* text-decoration: none; */
     color: #252d33;
+}
+
+.qualities h3 {
+    margin-top: 10px;
+}
+
+.item-qualities {
+    display: flex;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.box {
+    width: 10px;
+    height: 10px;
+    margin: auto 10px auto 0px;
+    background-color: #252d33;
+}
+
+.interests h3 {
+    margin-top: 20px;
+}
+
+.item-interests {
+    display: flex;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+/*Coluna da Esquerda*/
+.left-col {
+    color: #252d33;
+}
+
+/*Educação e experiência*/
+.title {
+    display: flex;
+    font-weight: 500;
+    color: #252d33;
+}
+
+.item-education {
+    margin-bottom: 15px;
+}
+
+.item-education label {
+    color: #757e83;
+}
+
+.item-education span {
+    font-weight: 400;
+    color: #252d33;
+}
+
+.item-education .col-3 {
+    text-align: right;
+}
+
+.experience h3 {
+    margin-top: 20px;
+}
+
+.item-experience {
+    margin-bottom: 15px;
+}
+
+.item-experience label {
+    color: #757e83;
+}
+
+.item-experience span {
+    font-weight: 400;
+    color: #252d33;
+}
+
+.item-experience .col-3 {
+    text-align: right;
+}
+
+/*Competencias e Linguagens de Programação*/
+.bar-percent {
+    width: 100%;
+    height: 10px;
+    background-color: #c1c5c7;
+}
+
+.inside-bar-percent {
+    height: 10px;
+    background-color: #252d33;
+}
+
+.skills h3 {
+    margin-top: 20px;
+}
+
+.item-skill {
+    margin-bottom: 15px;
+    padding-right: 20px;
+}
+
+.item-skill label {
+    margin-bottom: 5px;
+}
+
+.languages h3 {
+    margin-top: 20px;
 }
