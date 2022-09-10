@@ -10,186 +10,89 @@
 
   <!-- Body Styles CSS -->
   <link rel="stylesheet" href="css/index.css" />
-  <!-- Navbar Styles CSS -->
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
 
-  <title>Delcimario</title>
+  <title>Rafithy</title>
 </head>
 
 <body>
   <div class="container-fluid">
-    <div class="row main-row">
-      <!--LEFT-->
-      <div class="col-sm">
-        <!--Avatar e resumo-->
-        <div class="row presentation">
-          <div class="col-6">
-            <div class="avatar">
-              <div class="image-box">
-                <img src="./img/me.jpeg" alt="Imagem de perfil">
-              </div>
-            </div>
-            <div class="behind-resume">
-              <div class="resume">
-                <h4>Delcimario dos Santos Alves</h4>
-                <h5>DESENVOLVEDOR DE SOFTWARE</h5>
-                <span>
-                  Estudante de Ciências Exatas e Tecnológicas e Engenharia da Computação, Desenvolvedor fullstack
-                  Javascript e apaixonado por Games. Atualmente trabalha com desenvolvimento de frontend web.
-                </span>
-              </div>
-            </div>
-          </div>
+    <div class="row header">
+      <img class="col-3" src="./img//me.jpeg" alt="" />
+      <div class="col-9 header-content">
+        <div>
+          <h2>Delcimario Alves</h2>
+          <h6>Desenvolvedor Fullstack</h6>
         </div>
-        <!--Informações pessoais-->
-        <div class="personal-information">
-          <div class="col-12">
-            <div class="personal-item">
-              <img src="./img/bday-cake.svg" alt="ícone de bolo de aniversário">
-              <div>
-                <label>Aniversário: </label>
-                <span>20/06/2001</span>
-              </div>
-            </div>
-            <div class="personal-item">
-              <img src="./img/location.svg" alt="ícone de localização">
-              <div>
-                <label>Endereço:</label>
-                <span>Cruz das Almas, Bahia, Brazil</span>
-              </div>
-            </div>
-            <div class="personal-item">
-              <img src="./img/phone-icon.svg" alt="ícone de telefone">
-              <div>
-                <label>Telefone:</label>
-                <span>(75) 9 8244 - 0459</span>
-              </div>
-            </div>
-            <div class="personal-item">
-              <img src="./img/mail-icon.svg" alt="ícone de email">
-              <div>
-                <label>Email:</label>
-                <span>rafithydev@gmail.com</span>
-              </div>
-            </div>
+        <div class="info">
+          <div>
+            <label>
+              <img src="./img//mail-icon.svg" alt="" />
+              delcimariosantos@gmail.com
+            </label>
+            <label>
+              <img src="./img/phone-icon.svg" alt="" />
+              75 98244-0459
+            </label>
           </div>
+          <label>
+            <img src="./img//location.svg" alt="" />
+            Cruz das Almas - Bahia
+          </label>
         </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-9">
+        col-8
       </div>
 
-      <!--RIGHT-->
-      <div class="col-sm right-col">
-        <div class="row education">
-          <div class="col-12">
-            <h4>EDUCAÇÃO</h4>
-            <div class="horizontal-line"></div>
-            <div class="row education-item">
-              <div class="col-2">
-                <label>2019</label><br>
-                <label>Atual</label>
-              </div>
-              <div class="col-10">
-                <label>Universidade Federal do Recôncavo da Bahia</label><br>
-                <span>Bacharelado em Ciências Exatas e Tecnológicas e Engenharia da Computação</span>
-              </div>
-            </div>
+      <div class="col-3 left-col">
+        <div class="row personal-information">
+          <h3>Dados Pessoais</h3>
+          <div class="item-personal-information">
+            <label class="key">Data de Nascimento</label><br>
+            <label class="value">20 de Junho de 2001</label>
+          </div>
+          <div class="item-personal-information">
+            <label class="key">Naturalidade</label><br>
+            <label class="value">Valença - BA</label>
+          </div>
+          <div class="item-personal-information">
+            <label class="key">Gênero</label><br>
+            <label class="value">Homem</label>
+          </div>
+          <div class="item-personal-information">
+            <label class="key">Estado Civil</label><br>
+            <label class="value">Solteiro</label>
+          </div>
+          <div class="item-personal-information">
+            <label class="key">LinkedIn</label><br>
+            <label class="value">
+              <a href="https://www.linkedin.com/in/alvdelci/" target="_blank">linkedin.com/in/alvdelci</a>
+            </label>
+          </div>
+          <div class="item-personal-information">
+            <label class="key">GitHub</label><br>
+            <label class="value">
+              <a href="https://github.com/alvdelci" target="_blank">github.com/alvdelci</a>
+
+            </label>
           </div>
         </div>
-        <div class="row experience">
-          <div class="col-12">
-            <h4>EXPERIÊNCIA</h4>
-            <div class="horizontal-line"></div>
-            <div class="row education-item">
-              <div class="col-2">
-                <label>2020</label><br>
-                <label>2021</label>
-              </div>
-              <div class="col-10">
-                <label>Desenvolvedor de Software na Recode Jr.</label><br>
-                <span>Desenvolvimento de aplicações web com Node.js e React</span>
-              </div>
-            </div>
-            <div class="row education-item">
-              <div class="col-2">
-                <label>2021</label><br>
-                <label>2022</label>
-              </div>
-              <div class="col-10">
-                <label>Diretor de Projetos na Recode Jr.</label><br>
-                <span>Gerenciamento de projetos e supervisão de equipe de desenvolvimento</span>
-              </div>
-            </div>
-            <div class="row education-item">
-              <div class="col-2">
-                <label>2021</label><br>
-                <label>Atual</label>
-              </div>
-              <div class="col-10">
-                <label>Bolsista de Iniciação Tecnológica do CNPq</label><br>
-                <span>Desenvolvimento de software e tecnologia de visão computacional</span>
-              </div>
-            </div>
-          </div>
+        <div class="row">
+          <h3>Qualidades</h3>
         </div>
-        <!--SKILLS-->
-        <div class="row row-ms">
-          <h4>PRINCIPAIS HABILIDADES</h4>
-          <div class="skills">
-            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
-              <div class="skill-box">
-                <img src="./img/html.svg" alt="ícone da linguagem HTML5">
-              </div>
-            </a>
-            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
-              <div class="skill-box">
-                <img src="./img/css.svg" alt="ícone da linguagem CSS3">
-              </div>
-            </a>
-            <a href="https://www.javascript.com" target="_blank">
-              <div class="skill-box">
-                <img src="./img/javascript.svg" alt="ícone da linguagem Javascript">
-              </div>
-            </a>
-            <a href="https://reactjs.org" target="_blank">
-              <div class="skill-box">
-                <img src="./img/react.svg" alt="ícone da biblioteca ReactJS">
-              </div>
-            </a>
-            <a href="https://nodejs.org/en/" target="_blank">
-              <div class="skill-box">
-                <img src="./img/node.svg" alt="ícone do NodeJS">
-              </div>
-            </a>
-          </div>
-        </div>
-        <!--SOCIAL NETWORKS-->
-        <div class="row row-sn">
-          <h4>REDES SOCIAIS</h4>
-          <div class="social">
-            <a href="https://discord.gg/feHNH2TTW8" target="_blank">
-              <div class="social-box">
-                <img src="./img/social_networks_icons/discord.svg" alt="ícone do Discord">
-              </div>
-            </a>
-            <a href="https://github.com/alvdelci" target="_blank">
-              <div class="social-box">
-                <img src="./img/social_networks_icons/github.svg" alt="ícone do Github">
-              </div>
-            </a>
-            <a href="https://www.instagram.com/alv_delci/" target="_blank">
-              <div class="social-box">
-                <img src="./img/social_networks_icons/instagram.svg" alt="ícone do Instagram">
-              </div>
-            </a>
-            <a href="https://www.linkedin.com/in/alvdelci/" target="_blank">
-              <div class="social-box">
-                <img src="./img/social_networks_icons/linkedin.svg" alt="ícone do LinkedIn">
-              </div>
-            </a>
-          </div>
+        <div class="row">
+          <h3>Interesses</h3>
         </div>
       </div>
+    </div>
+    <div class="body">
+
     </div>
   </div>
 
