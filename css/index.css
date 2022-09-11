@@ -16,6 +16,10 @@ body {
     border-top: 1px solid #9eb7c2;
 }
 
+.last-left-line {
+    display: none;
+}
+
 .container-fluid {
     width: 100%;
     margin-bottom: 30px;
@@ -31,7 +35,7 @@ body {
 .header-content {
     width: 100%;
     display: flex;
-    padding: 0px 0px 0px 0px !important;
+    padding-left: 0px !important;
 }
 
 .header-page img {
@@ -202,8 +206,18 @@ body {
 
 /*Mobile*/
 @media screen and (max-width: 768px) {
+    .avatar img {
+        transform: rotate(-30deg);
+        transform-origin: center;
+    }
+
     .vertical-line {
         display: none;
+    }
+
+    .last-left-line {
+        display: block;
+        margin-top: 25px;
     }
 
     h3 {
@@ -212,9 +226,20 @@ body {
 
     .header-content {
         display: block;
+        padding-top: 10px;
+        padding-left: 10px !important;
     }
 
-    .email-phone {
-        display: grid;
+    .header-page img {
+        border-radius: 50%;
     }
+
+    .education h3 {
+        margin-top: 15px;
+    }
+
+    .item-experience {
+        margin-bottom: 20px;
+    }
+
 }
