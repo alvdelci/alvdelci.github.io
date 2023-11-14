@@ -33,7 +33,7 @@ html {
     outline: none;
     text-decoration: none;
     font-family: 'Rubik', sans-serif;
-    color: white;
+    color: rgba(255, 255, 255, 0.9);
   }
 
   header .navlink .link:focus {
@@ -98,6 +98,14 @@ html {
 
   .home span {
     font-family: 'Goblin One', sans-serif;
-    color: white;
+    color: rgba(255, 255, 255, 0.8);
     z-index: 1;
+  }
+
+  .home .scroll-label {
+    position: absolute;
+    left: 10px;
+    bottom: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Concert One", sans-serif;
   }
