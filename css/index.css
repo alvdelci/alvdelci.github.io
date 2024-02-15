@@ -212,11 +212,6 @@ body {
 
 /*Mobile*/
 @media screen and (max-width: 768px) {
-  .avatar img {
-    transform: rotate(-30deg);
-    transform-origin: center;
-  }
-
   .vertical-line {
     display: none;
   }
