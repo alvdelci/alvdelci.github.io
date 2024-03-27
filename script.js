@@ -1,3 +1,16 @@
+//Vai para o inicio da pagina quando recarregar
+document.location.href = "#home";
+
+//vai para o topo da pagina quando clicar no elemento
+function goTop() {
+    document.location.href = "#home";
+}
+
+//Abre janela de envio de email
+function goEmail() {
+    document.location = "mailto:delcimariosantos@gmail.com"
+}
+
 /**Funcoes de acoes durante scroll */
 let currentSection;
 
