@@ -23,6 +23,10 @@ header {
   background-color: transparent;
 }
 
+.logo {
+  cursor: pointer;
+}
+
 header .sumary {
   display: flex;
 }
@@ -40,6 +44,24 @@ header .sumary .sumary-item.active {
   font-weight: 600;
   color: #1233b5;
 }
+
+/*HOME*/
+.contact {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  padding: 20px 0px 20px 40px;
+}
+
+.contact img {
+  margin: 0px 15px;
+}
+
+
+
+
+
 
 
 /*Configuracao dos backgrounds de cada section*/

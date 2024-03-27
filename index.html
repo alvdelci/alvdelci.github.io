@@ -19,18 +19,33 @@
 <body>
   <header>
     <div class="sumary">
-      <a href="#home" name="home" class="sumary-item active">Home</a>
+      <a href="#home" name="home" class="sumary-item">Home</a>
       <a href="#about" name="about" class="sumary-item">About</a>
       <a href="#resume" name="resume" class="sumary-item">Resume</a>
       <a href="#portfolio" name="portfolio" class="sumary-item">Portfolio</a>
     </div>
-    <div class="logo">
+    <div class="logo" onclick="goTop()">
       <img src="./images/icons/tag.svg" alt="tag html">
     </div>
   </header>
 
   <section id="home" class="section">
 
+
+    <div class="contact">
+      <a href="https://discord.gg/ERKppsFUXj" target="_blank" title="Join my discord server">
+        <img src="./images/icons/discord.svg" style="width: 30px;" alt="discord">
+      </a>
+      <a href="https://github.com/alvdelci" target="_blank" title="Github profile">
+        <img src="./images/icons/github.svg" style="width: 22px;" alt="github">
+      </a>
+      <a href="https://www.linkedin.com/in/alvdelci/" target="_blank" title="Linkedin profile">
+        <img src="./images/icons/linkedin.svg" style="width: 22px;" alt="linkedin">
+      </a>
+      <a href="#" onclick="goEmail()" target="_blank" title="Send me an email">
+        <img src="./images/icons/email.svg" style="width: 30px;" alt="email">
+      </a>
+    </div>
   </section>
 
   <section id="about" class="section">
