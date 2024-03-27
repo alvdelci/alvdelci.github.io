@@ -36,10 +36,6 @@ header .sumary .sumary-item {
   color: #fff;
 }
 
-header .sumary .sumary-item:hover {
-  font-weight: 600;
-}
-
 header .sumary .sumary-item.active {
   font-weight: 600;
   color: #1233b5;
@@ -47,7 +43,7 @@ header .sumary .sumary-item.active {
 
 
 /*Configuracao dos backgrounds de cada section*/
-.home {
+#home {
   background-image: url("../images/bg_mountain2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -55,7 +51,7 @@ header .sumary .sumary-item.active {
   z-index: inherit;
 }
 
-.about {
+#about {
   background-image: url("../images/bg_mountain1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -63,7 +59,7 @@ header .sumary .sumary-item.active {
   z-index: inherit;
 }
 
-.resume {
+#resume {
   background-image: url("../images/bg_mountain3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -71,7 +67,7 @@ header .sumary .sumary-item.active {
   z-index: inherit;
 }
 
-.portfolio {
+#portfolio {
   background-image: url("../images/bg1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
