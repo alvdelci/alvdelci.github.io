@@ -1,7 +1,13 @@
+
+:root {
+  color-scheme: dark;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Arimo", sans-serif;
 }
 
 html {
@@ -24,6 +30,7 @@ header {
 }
 
 .logo {
+  margin-left: 10px;
   cursor: pointer;
 }
 
@@ -42,26 +49,8 @@ header .sumary .sumary-item {
 
 header .sumary .sumary-item.active {
   font-weight: 600;
-  color: #1233b5;
+  color: #213250;
 }
-
-/*HOME*/
-.contact {
-  display: flex;
-  align-items: center;
-  position: absolute;
-  bottom: 0;
-  padding: 20px 0px 20px 40px;
-}
-
-.contact img {
-  margin: 0px 15px;
-}
-
-
-
-
-
 
 
 /*Configuracao dos backgrounds de cada section*/
