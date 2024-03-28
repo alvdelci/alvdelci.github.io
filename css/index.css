@@ -30,7 +30,7 @@ header {
 }
 
 .logo {
-  margin-left: 10px;
+  margin-right: 15px;
   cursor: pointer;
 }
 
@@ -55,7 +55,7 @@ header .sumary .sumary-item.active {
 
 /*Configuracao dos backgrounds de cada section*/
 #home {
-  background-image: url("../images/bg_mountain2.jpg");
+  background-image: url("../images/bg_computer.avif");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -71,7 +71,7 @@ header .sumary .sumary-item.active {
 }
 
 #resume {
-  background-image: url("../images/bg_mountain3.jpg");
+  background-image: url("../images/bg_mountain2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -79,7 +79,7 @@ header .sumary .sumary-item.active {
 }
 
 #portfolio {
-  background-image: url("../images/bg1.jpg");
+  background-image: url("../images/bg_mountain0.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
