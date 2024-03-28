@@ -8,7 +8,7 @@ function goTop() {
 
 //Abre janela de envio de email
 function goEmail() {
-    document.location = "mailto:delcimariosantos@gmail.com"
+    document.location = "mailto:delcimariosantos@gmail.com?subject=Contato através do portfolio&body=Olá Delcimario, como vai? Vi seu portfolio e decidi entrar em contato."
 }
 
 /**Funcoes de acoes durante scroll */
