@@ -30,14 +30,14 @@
 .content .title .lastname {
     font-size: 60px;
     font-weight: bolder;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
 .content .subtitle {
     font-family: "IBM Plex Sans", sans-serif;
     font-size: 24px;
     font-weight: lighter;
-    letter-spacing: 2px;
+    letter-spacing: 0.5px;
 }
 
 .content .content-buttons {
