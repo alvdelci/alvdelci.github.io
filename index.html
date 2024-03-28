@@ -6,10 +6,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/home.css">
   <link rel="shortcut icon" href="./images/icons/tag.svg" type="image/x-icon" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap"
     rel="stylesheet">
   <title>Delcimario</title>
@@ -18,19 +22,36 @@
 
 <body>
   <header>
+    <div class="logo" onclick="goTop()">
+      <img src="./images/icons/tag.svg" alt="tag html">
+    </div>
     <div class="sumary">
       <a href="#home" name="home" class="sumary-item">Home</a>
       <a href="#about" name="about" class="sumary-item">About</a>
       <a href="#resume" name="resume" class="sumary-item">Resume</a>
       <a href="#portfolio" name="portfolio" class="sumary-item">Portfolio</a>
     </div>
-    <div class="logo" onclick="goTop()">
-      <img src="./images/icons/tag.svg" alt="tag html">
-    </div>
+
   </header>
 
   <section id="home" class="section">
-
+    <div class="content">
+      <div class="title">
+        <div class="name">
+          ALVES
+        </div>
+        <h1 class="lastname">
+          DELCIMARIO
+        </h1>
+      </div>
+      <div class="subtitle">
+        Software Engineer
+      </div>
+      <div class="content-buttons">
+        <a href="#resume">Resume</a>
+        <a href="#portfolio">Portfolio</a>
+      </div>
+    </div>
 
     <div class="contact">
       <a href="https://discord.gg/ERKppsFUXj" target="_blank" title="Join my discord server">
