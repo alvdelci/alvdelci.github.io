@@ -1,0 +1,65 @@
+.contact {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    padding: 20px 0px 20px 0px;
+}
+
+.contact img {
+    margin: 0px 15px;
+}
+
+.content {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: #ffffff;
+}
+
+.content .title {
+
+}
+
+.content .title .name {
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+.content .title .lastname {
+    font-size: 60px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.content .subtitle {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
+    letter-spacing: 0.5px;
+}
+
+.content .content-buttons {
+    width: 100%;
+    display: flex;
+    margin-top: 44px;
+    justify-content: space-around;
+}
+
+.content .content-buttons a {
+    margin: 10px 0px;
+    padding: 8px 35px;
+    border-radius: 20px;
+    border: 1px solid #ffffff;
+    letter-spacing: 2px;
+    outline: none;
+    text-decoration: none;
+    background: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.content .content-buttons a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
