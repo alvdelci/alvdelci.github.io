@@ -1,0 +1,17 @@
+#portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#portfolio .title-portfolio {
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+#portfolio .subtitle-portfolio {
+    letter-spacing: 1px;
+    font-family: "IBM Plex Sans", sans-serif;
+}
