@@ -13,7 +13,7 @@
 .about-content .title h1 {
     width: min-content;
     margin-bottom: 5px;
-    border-bottom: 1px solid #213250;
+    border-bottom: 1px solid #09244B;
 }
 
 .about-content .title .email {
@@ -57,6 +57,27 @@
     width: 25px;
     height: 10px;
     margin: 8px 5px 0px 5px;
-    border-top: 1px solid #213250;
+    border-top: 1px solid #09244B;
+}
+
+/*Configuracoes para*/
+@media only screen and (max-width: 768px) {
+    .about-content {
+        width: 90vw;
+        top: 10%;
+        left: 5vw;
+        right: 5vw;
+    }
+
+    .about-content .about-description {
+        display: flex;
+        width: 90vw;
+        left: 0;
+        text-align: justify;
+    }
+
+    .about-content .born-location {
+        width: 90vw;
+    }
 }
 
