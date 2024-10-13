@@ -1,17 +1,249 @@
 .resume-content {
     display: flex;
     justify-content: space-between;
+    padding: 40px 40px 10px 40px;
 }
 
+/*LEFT*/
 .resume-content .left-column-content {
-
+    width: 30%;
 }
 
+.resume-content .left-column-content .skill-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.resume-content .left-column-content h1 {
+    width: fit-content;
+    margin: 40px 0px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #09244B;
+}
+
+.resume-content .left-column-content .skills-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.resume-content .left-column-content .skills-item .title {
+    letter-spacing: 1px;
+}
+
+.resume-content .left-column-content .skills-item img {
+    width: 22px;
+    margin-right: 10px;
+}
+
+.resume-content .left-column-content .skills-item .soft-skill-img {
+    width: 32px;
+    margin-right: 10px;
+}
+
+
+
+/*MIDDLE*/
 .resume-content .middle-column-content {
-    
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
+.resume-content .middle-column-content h1 {
+    width: fit-content;
+    margin: 40px 3px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #09244B;
+}
+
+.resume-content .middle-column-content .education-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.resume-content .middle-column-content .education-item img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.resume-content .middle-column-content .education-item .education-item-content {
+
+}
+
+.resume-content .middle-column-content .education-item .education-item-content .title {
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+.resume-content .middle-column-content .education-item .education-item-content .subtitle {
+    font-size: 14px;
+}
+
+.resume-content .middle-column-content .education-item .education-item-content .subtitle .institution {
+    letter-spacing: 1px;
+}
+
+.resume-content .middle-column-content .education-item .education-item-content .subtitle .status {
+    letter-spacing: 1px;
+}
+
+.resume-content .middle-column-content .hobby-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.resume-content .middle-column-content .hobby-container .hobby-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.resume-content .middle-column-content .hobby-container .hobby-item img {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.resume-content .middle-column-content .hobby-title {
+    margin-bottom: 50px;
+}
+
+
+
+/*RIGHT*/
 .resume-content .right-column-content {
-    
+    width: 30%;
 }
 
+.resume-content .right-column-content h1 {
+    width: fit-content;
+    margin: 40px 3px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #09244B;
+}
+
+.resume-content .right-column-content .experience-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.resume-content .right-column-content .experience-item img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.resume-content .right-column-content .experience-item .experience-item-content {
+
+}
+
+.resume-content .right-column-content .experience-item .experience-item-content .title {
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+.resume-content .right-column-content .experience-item .experience-item-content .subtitle {
+    font-size: 14px;
+}
+
+.resume-content .right-column-content .experience-item .experience-item-content .subtitle .institution {
+    letter-spacing: 1px;
+}
+
+.resume-content .right-column-content .experience-item .experience-item-content .subtitle .status {
+    letter-spacing: 1px;
+}
+
+
+/**Mobile view*/
+@media only screen and (max-width: 768px) {
+    .resume-content {
+        flex-direction: column;
+    }
+    
+    /*LEFT*/
+    .resume-content .left-column-content {
+        display: none;
+    }
+    
+    /*MIDDLE*/
+    .resume-content .middle-column-content {
+        width: 100%;
+    }
+    
+    .resume-content .middle-column-content h1 {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    
+    .resume-content .middle-column-content .education-item {
+
+    }
+    
+    .resume-content .middle-column-content .education-item img {
+    }
+    
+    .resume-content .middle-column-content .education-item .education-item-content {
+    
+    }
+    
+    .resume-content .middle-column-content .education-item .education-item-content .title {
+    }
+    
+    .resume-content .middle-column-content .education-item .education-item-content .subtitle {
+    }
+    
+    .resume-content .middle-column-content .education-item .education-item-content .subtitle .institution {
+    }
+    
+    .resume-content .middle-column-content .education-item .education-item-content .subtitle .status {
+    }
+    
+    .resume-content .middle-column-content .hobby-container {
+        display: none;
+    }
+    
+    .resume-content .middle-column-content .hobby-container .hobby-item {
+    }
+    
+    .resume-content .middle-column-content .hobby-container .hobby-item img {
+    }
+    
+    .resume-content .middle-column-content .hobby-title {
+        display: none;
+    }
+    
+    /*RIGHT*/
+    .resume-content .right-column-content {
+        width: 100%;
+    }
+    
+    .resume-content .right-column-content h1 {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    
+    .resume-content .right-column-content .experience-item {
+    }
+    
+    .resume-content .right-column-content .experience-item img {
+    }
+    
+    .resume-content .right-column-content .experience-item .experience-item-content {
+    
+    }
+    
+    .resume-content .right-column-content .experience-item .experience-item-content .title {
+    }
+    
+    .resume-content .right-column-content .experience-item .experience-item-content .subtitle {
+    }
+    
+    .resume-content .right-column-content .experience-item .experience-item-content .subtitle .institution {
+    }
+    
+    .resume-content .right-column-content .experience-item .experience-item-content .subtitle .status {
+    }
+}
