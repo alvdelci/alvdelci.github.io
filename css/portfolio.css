@@ -15,3 +15,10 @@
     letter-spacing: 1px;
     font-family: "IBM Plex Sans", sans-serif;
 }
+
+@media only screen and (max-width: 768px) {
+    #portfolio .subtitle-portfolio {
+        text-align: center;
+    }
+    
+}
