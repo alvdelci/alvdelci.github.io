@@ -155,3 +155,95 @@
 .resume-content .right-column-content .experience-item .experience-item-content .subtitle .status {
     letter-spacing: 1px;
 }
+
+
+/**Mobile view*/
+@media only screen and (max-width: 768px) {
+    .resume-content {
+        flex-direction: column;
+    }
+    
+    /*LEFT*/
+    .resume-content .left-column-content {
+        display: none;
+    }
+    
+    /*MIDDLE*/
+    .resume-content .middle-column-content {
+        width: 100%;
+    }
+    
+    .resume-content .middle-column-content h1 {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    
+    .resume-content .middle-column-content .education-item {
+
+    }
+    
+    .resume-content .middle-column-content .education-item img {
+    }
+    
+    .resume-content .middle-column-content .education-item .education-item-content {
+    
+    }
+    
+    .resume-content .middle-column-content .education-item .education-item-content .title {
+    }
+    
+    .resume-content .middle-column-content .education-item .education-item-content .subtitle {
+    }
+    
+    .resume-content .middle-column-content .education-item .education-item-content .subtitle .institution {
+    }
+    
+    .resume-content .middle-column-content .education-item .education-item-content .subtitle .status {
+    }
+    
+    .resume-content .middle-column-content .hobby-container {
+        display: none;
+    }
+    
+    .resume-content .middle-column-content .hobby-container .hobby-item {
+    }
+    
+    .resume-content .middle-column-content .hobby-container .hobby-item img {
+    }
+    
+    .resume-content .middle-column-content .hobby-title {
+        display: none;
+    }
+    
+    /*RIGHT*/
+    .resume-content .right-column-content {
+        width: 100%;
+    }
+    
+    .resume-content .right-column-content h1 {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    
+    .resume-content .right-column-content .experience-item {
+    }
+    
+    .resume-content .right-column-content .experience-item img {
+    }
+    
+    .resume-content .right-column-content .experience-item .experience-item-content {
+    
+    }
+    
+    .resume-content .right-column-content .experience-item .experience-item-content .title {
+    }
+    
+    .resume-content .right-column-content .experience-item .experience-item-content .subtitle {
+    }
+    
+    .resume-content .right-column-content .experience-item .experience-item-content .subtitle .institution {
+    }
+    
+    .resume-content .right-column-content .experience-item .experience-item-content .subtitle .status {
+    }
+}
